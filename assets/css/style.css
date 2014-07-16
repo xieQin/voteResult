@@ -1,0 +1,98 @@
+.comtainer {
+	display: block;
+  clear: both;
+}
+
+.top-container {
+  /*position: relative;*/
+  display: inline-block;
+  background: #bbada0;
+  padding: 15px 25px;
+  font-size: 25px;
+  height: 25px;
+  border-radius: 3px;
+  color: white;
+  /*margin-top: 8px;*/
+  text-align: center;
+  margin-bottom: 10px;
+  float: center;
+}
+
+.showResultBtn {
+	display: inline-block;
+	background: #8f7a66;
+ 	border-radius: 3px;
+  padding: 0 20px;
+  text-decoration: none;
+  color: #f9f6f2;
+  height: 40px;
+  line-height: 42px;
+  display: block;
+  text-align: center;
+  float: left;
+  cursor:pointer;
+  margin-left: 10px;
+}
+.showFirstResult {
+  float: left;
+}
+
+.showSecondResult {
+  float: left;
+}
+
+.showThirdResult {
+  float: left;
+}
+
+.showFourthResult {
+  float: left;
+}
+
+.backBtn {
+  display: inline-block;
+  background: #8f7a66;
+  border-radius: 3px;
+  padding: 0 20px;
+  text-decoration: none;
+  color: #f9f6f2;
+  height: 40px;
+  line-height: 42px;
+  display: block;
+  text-align: center;
+  float: left;
+  cursor:pointer;
+  margin-left: 10px;
+}
+
+.showCResultBtn {
+  display: inline-block;
+  background: #8f7a66;
+  border-radius: 3px;
+  padding: 0 20px;
+  text-decoration: none;
+  color: #f9f6f2;
+  height: 40px;
+  line-height: 42px;
+  display: block;
+  text-align: center;
+  float: left;
+  cursor:pointer;
+  margin-left: 10px;
+}
+
+.showCFirstResult {
+  float: left;
+}
+
+.showCSecondResult {
+  float: left;
+}
+
+.showCThirdResult {
+  float: left;
+}
+
+.showCFourthResult {
+  float: left;
+}
