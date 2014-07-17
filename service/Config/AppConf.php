@@ -19,8 +19,8 @@ if (CONFIG_TAG == "dev") {
 //        "DB_HOST" => "localhost:3306",
 //        "DB_USER" => "root",
 //        "DB_PWD" => "123123",
-//        "DB_NAME" => "moadb",        
-        
+//        "DB_NAME" => "moadb",
+
         "SMS_KEY" => "51",
         "SMS_SUCRET" => "d08c824d703007fa5c980a904d851897048e2c92",
         "upload_server" => "http://112.124.26.68/ImageServer/trunk/upload_service.php",

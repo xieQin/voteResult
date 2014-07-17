@@ -184,6 +184,10 @@ $(document).ready(function($) {
 
             res = aryToJson(JSON.parse(res));
 
+            if(!res||!res.A||!res.B||!res.C||!res.D||!res.E||!res.F||!res.G||!res.H){
+                continue;
+            }
+
             // alert(res.A)
             if((res.A[0] == 1 && res.A[1] == 2) ||(res.A[0] == 2 && res.A[1] == 1)){
                 count ++;
