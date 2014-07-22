@@ -214,15 +214,15 @@ $(document).ready(function($) {
                 count ++;
             }
 
-            if(count >= 2){
+            if(count == 2 || count == 3){
                 first[record1] = result[i];
                 record1 ++;
             }
-            if(count >= 4){
+            if(count == 4 || count == 5){
                 second[record2] = result[i];
                 record2 ++;
             }
-            if(count >= 6){
+            if(count == 6 || count == 7){
                 third[record3] = result[i];
                 record3 ++;
             }
@@ -259,15 +259,15 @@ $(document).ready(function($) {
                 countC = 1;
             }
 
-            if(count >= 2) {
+            if(count == 2) {
                 cFirst[record1] = result[i];
                 record1 ++;
             }
-            if(count >= 3) {
+            if(count == 3) {
                 cSecond[record2] = result[i];
                 record2 ++;
             }
-            if(count >= 4) {
+            if(count == 4) {
                 cThird[record3] = result[i];
                 record3 ++;
             }
